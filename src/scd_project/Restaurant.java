@@ -26,7 +26,6 @@ public class Restaurant extends JFrame  {
         menuTextArea = new JTextArea();
         menuTextArea.setEditable(false);
         JScrollPane menuScrollPane = new JScrollPane(menuTextArea);
-
         offersTextArea = new JTextArea();
         offersTextArea.setEditable(false);
         JScrollPane offersScrollPane = new JScrollPane(offersTextArea);

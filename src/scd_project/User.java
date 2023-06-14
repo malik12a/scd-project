@@ -144,8 +144,6 @@ public class User extends JFrame {
             public void run() {
                 User userGUI = new User();
                 userGUI.setVisible(true);
-
-                // Create a sample user
                 User user = new User("JohnDoe", "password", "johndoe@example.com",
                         "123 Main St", "1234 5678 9012 3456");
                 userGUI.setUser(user);
